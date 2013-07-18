@@ -1,0 +1,70 @@
+2013-06-26
+
+Files that need to be in this directory and their formatting:
+
+- focalplanelayout.txt
+- filter_X.txt (in place with aux parameters)
+- lenses.txt (in place with aux parameters)
+- mirror.txt (in place with aux parameters)
+- detectorar.txt
+- segmentation.txt
+- spider.txt
+- silica_dispersion.txt
+- control.txt
+- location.txt
+- optics_X.txt (in place with dummy parameters)
+
+Details of each file: (UNITS!) 
+
+focalplanelayout.txt
+================================================
+Specification for each channel and others.
+
+filter_X.txt
+================================================
+(Wavelength, transmission) Each filter has a file.
+
+lenses.txt
+================================================
+(Wavelength, transmission) All lenses are the same?!
+
+mirror.txt
+================================================
+(Wavelength, reflection?)
+
+detectorar.txt
+================================================
+(Wavelength, transmission?)
+
+segmentation.txt
+================================================
+Specify each amplifier. 
+
+spider.txt
+================================================
+Specifies where the spider is? 
+
+silica_dispersion.txt
+================================================
+Not sure what this is. Sees to be (Wavelength, something?)
+
+control.txt
+================================================
+This is the control system, will need specs on optics for this.
+
+locations.txt
+================================================
+The location of the telescope (reference origine to the system)
+Z=?
+X=0
+Y=0
+
+optics_X.txt
+================================================
+This file specifies all the optical elements and their dimensions. Should start from here when putting in a new telescope.
+
+
+2013-07-05
+
+1. Got ZEMAX file, now need to understand what it is saying... a good intro can be found here: http://astro.dur.ac.uk/~rsharp/opticaldesign.html
+2. Identify surfaces, but seems to still be missing material properties?
