@@ -1,25 +1,14 @@
-# Column 0: Name															
-# Column 1: Type															
-# Column 2: Radius of curvature (mm)														
-# Column 3: Thickness (mm)															
-# Column 4: Outer radius (mm)															
-# Column 5: Inner radius (mm)															
-# Column 6: Conic constant kappa														
-# Column 7 - 14: Aspheric coefficient a_3 - a_10 (a_n r^n in meters)												
-# Column 15: Coating file															
-# Column 16: Medium file															
-																
-M1	mirror	21311.6	0.0	2005	587.7	-1.1	0	0	0	0	0	0	0	0	mirror.txt	air
-L1	lens	686.0	8375.0	490	0	0	0	0	0	0	0	0	0	0	lenses.txt	silica_dispersion.txt
-L1E	lens	711.9	110.5	490	0	0	0	0	0	0	0	0	0	0	lenses.txt	air
-L2	lens	3385.6	658.1	345.1	0	0	0	0	0	0	0	0	0	0	lenses.txt	silica_dispersion.txt
-L2E	lens	506.9	51.1	345.1	0	0	1E-22	-1.4E-31	0	0	0	0	0	0	lenses.txt	air
-L3	lens	943.6	94.6	326	0	0	0	0	0	0	0	0	0	0	lenses.txt	silica_dispersion.txt
-L3E	lens	2416.9	75.6	326	0	0	0	0	0	0	0	0	0	0	lenses.txt	air
-F1	filter	0	325.1	307	0	0	0	0	0	0	0	0	0	0	filter_2.txt	silica_dispersion.txt
-FE1	filter	0	142.1	307	0	0	0	0	0	0	0	0	0	0	none	air
-L4	lens	662.4	36.4	302.5	0	0	-1E-21	-8E-30	0	0	0	0	0	0	lenses.txt	silica_dispersion.txt
-L4E	lens	1798.3	101.5	302.5	0	0	0	0	0	0	0	0	0	0	lenses.txt	air
-L5	lens	-899.8	202.1	250.8	0	0	0	0	0	0	0	0	0	0	lenses.txt	silica_dispersion.txt
-L5E	lens	-685.0	53.1	250.8	0	0	0	0	0	0	0	0	0	0	lenses.txt	air
-D	det	0	29.9	271	0	0	0	0	0	0	0	0	0	0	detectorar.txt	air
+M1  mirror  21311.6  0.0  2005.0  587.7  -1.1  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  mirror.txt  air
+L1  lens  686.0  8375.0  490.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  lenses.txt  silica_dispersion.txt
+L1E  lens  711.9  110.5  490.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  lenses.txt  air
+L2  lens  3385.6  658.1  345.1  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  lenses.txt  silica_dispersion.txt
+L2E  lens  506.9  51.1  345.1   0.0  0.0  1E-22  -1.4E-31  0.0  0.0  0.0  0.0  0.0  0.0  lenses.txt  air
+L3  lens  943.6  94.6  326.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  lenses.txt  silica_dispersion.txt
+L3E  lens  2416.9  75.6  326.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  lenses.txt  air
+F1  filter  0.0  325.1  307.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  filter_2.txt  silica_dispersion.txt
+FE1  filter  0.0  142.1  307.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  none  air
+L4  lens  662.4  36.4  302.5  0.0  0.0  -1E-21  -8E-30  0.0  0.0  0.0  0.0  0.0  0.0  lenses.txt  silica_dispersion.txt
+L4E  lens  1798.3  101.5  302.5  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  lenses.txt  air
+L5  lens  -899.8  202.1  250.8  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  lenses.txt  silica_dispersion.txt
+L5E  lens  -685.0  53.1  250.8  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  lenses.txt  air
+D  det  0.0  29.9  271.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  detectorar.txt  air

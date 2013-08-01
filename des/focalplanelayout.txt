@@ -1,17 +1,16 @@
-# Column 0: Name																																				
-# Column 1: Center x position (microns)																																				
-# Column 2: Center y position (microns)																																				
-# Column 3: Pixel size (microns)																																				
-# Column 4: Number of x pixels																																				
-# Column 5: Number of y pixels																																				
-# Column 6: Type of device																																				
-# Column 7: Readout time (CCD) or frame rate (CMOS)																																			
-# Column 8: Group of sensors																																				
-# Column 9-14: Body motions (units?)																																				
-# Column 15: Chip rotation (units?)																																				
-# Column 16-36: Zernike coefficients																																				
-# Column 37: QE variation																																				
-																																					
+# Column 0: Name
+# Column 1: Center x position (microns)
+# Column 2: Center y position (microns)	
+# Column 3: Pixel size (microns)
+# Column 4: Number of x pixels
+# Column 5: Number of y pixels
+# Column 6: Type of device
+# Column 7: Readout time (CCD) or frame rate (CMOS)
+# Column 8: Group of sensors
+# Column 9-14: Body motions (units?)
+# Column 15: Chip rotation (units?)
+# Column 16-36: Zernike coefficients
+# Column 37: QE variation						
 S29	-185460	-63740	15.0	2048	4096	CCD	20.0	Group0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.01
 S30	-185460	0	15.0	2048	4096	CCD	20.0	Group0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.01
 S31	-185460	63740	15.0	2048	4096	CCD	20.0	Group0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.01
